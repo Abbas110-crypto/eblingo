@@ -9,10 +9,10 @@ const Navbar: React.FC = () => {
     <nav className={styles.navbar}>
       <div className={styles.left}>
         <Image
-        src="/logo.jpeg" 
+        src="/assets/logo.png" 
         alt="Logo"
-        width={200} 
-        height={75} 
+        width={150} 
+        height={150} 
         className={styles.logo} 
       />
       </div>
