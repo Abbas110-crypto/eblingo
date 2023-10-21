@@ -1,4 +1,4 @@
-import styles from '../styles/Blog.module.css';
+import styles from '../styles/blog.module.css';
 import Image from 'next/image';
 import React from 'react';
 import {Row,Col, Button, Space} from 'antd';
@@ -67,6 +67,7 @@ const Blog: React.FC = () => {
                 <FacebookOutlined style={{ fontSize: '200%'}} />
                 <LinkedinOutlined style={{ fontSize: '200%'}} />
                 <InstagramOutlined style={{ fontSize: '200%'}} />
+
                     </Space>
                 </Col>
                 </Row>  
