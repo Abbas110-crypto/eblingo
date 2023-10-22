@@ -79,6 +79,7 @@ const ContactForm: React.FC = () => {
         <div>
             
         <Button 
+        onClick={handleSubmit}
             className={styles.contact_button}>
             Submit
           </Button>
