@@ -1,0 +1,154 @@
+/* styles/Footer.module.css */
+
+.footer {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  width: 100%;
+}
+
+.overall_Link {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.overall_Link li {
+  margin-right: 40px;
+}
+
+.overall_Link a {
+  text-decoration: none;
+}
+
+.legal_terms_h {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.reserved_rights {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 30px;
+}
+
+.privacy_policy {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 430px;
+}
+
+.terms_and_condition {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-right: 30px;
+}
+
+.services_feild {
+  list-style: none;
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 100px;
+}
+
+.socialmedia_links {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  list-style: none;
+}
+
+.socialmedia {
+  align-items: start;
+}
+
+.Useful_links {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  list-style: none;
+}
+
+.Useful_links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.recent_heading {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.recent1 {
+  display: flex;
+  margin-bottom: 15px;
+
+
+}
+
+.recent_Date {
+  color: rgba(10, 20, 47, 0.50);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.recent2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.logo_footer {
+  display: flex;
+  justify-content: left;
+}
+
+.email_heading {
+  position: relative;
+  margin-left: 35px;
+  bottom: 180px;
+  color: var(--Dark, #0A142F);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+
+.email_input {
+  position: relative;
+  margin-left: 35px;
+  bottom: 160px;
+  border: none;
+  border-bottom: 1px solid #0A142F;
+  height: 40px;
+  width: 200px;
+}
+
+.email_icon {
+  position: relative;
+  bottom: 157px;
+  right: 20px;
+}
