@@ -112,12 +112,12 @@ const Service = () => {
                     </Col>
                 </Row>
             </div>
-            <div>
+            <div className={styles.brands_images}>
                 <Image
                     src="/assets/brand.png"
                     alt="Service"
-                    width={1000}
-                    height={100}
+                    width={1442}
+                    height={146}
                 />
             </div>
 
