@@ -1,39 +1,38 @@
+.Service{
+    margin-top: 10%;
+}
+
 .allservice_heading {
-    margin-left: 25px;
-    margin-top: 60px;
     color: #FB6239;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: 15px;
+    line-height: 30px;
 }
 
 .heading_translation_firm {
     color: #000;
-    font-size: 25px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
-    /* 175% */
-    margin-top: 20px;
-    margin-left: 25px;
+    line-height: 70px;
 }
 
 .quote_button {
     background-image: linear-gradient(to right, #ed1e78, #faaf40);
-    color: white;
-    border-color: transparent;
-    float: right;
-    margin-right: 10px;
-    width: 140px;
-    height: 50px;
-    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    width: 211px;
+    height: 82px;
 
 }
 
 .service_box1 {
     border-radius: 10px;
-    
+
 
 }
 
@@ -67,15 +66,19 @@
 .First_Service_Section {
     margin-top: 10%;
 }
-.Second_Service_Section{
+
+.Second_Service_Section {
     margin-top: 5%;
 }
-.third_Service_Section{
+
+.third_Service_Section {
     margin-top: 5%;
 }
-.fourth_Service_Section{
+
+.fourth_Service_Section {
     margin-top: 5%;
 }
-.brands_images{
+
+.brands_images {
     margin-top: 2%;
 }

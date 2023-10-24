@@ -7,11 +7,21 @@ import { start } from 'repl';
 const Service = () => {
     return (
         <div className={styles.main}>
+            <div className={styles.Service}>
+            <Row>
+            <Col span={18}>
+            <div className={styles.Service_Heading}>
             <h6 className={styles.allservice_heading}>OUR SERVICES</h6>
             <div className={styles.heading_translation_firm}>
                 Biggest language Translation firm
             </div>
+            </div>
+            </Col>
+            <Col>
             <Button className={styles.quote_button}>Get a quote</Button>
+            </Col>
+            </Row>
+            </div>
             <div className={styles.First_Service_Section}>
                 <Row justify={'start'}>
                     <Col span={10}>

@@ -1,6 +1,7 @@
 .contact_container {
     width: 506px;
     height: 725px;
+    background: white;
     border-color: black;
     border-radius: 10px;
     border: 1px solid #969696;

@@ -6,7 +6,7 @@ import { FacebookOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-desi
 
 const Blog: React.FC = () => {
     return (
-        <div>
+        <div className={styles.blog}>
             <h5 className={styles.blog_heading}>OUR BLOG</h5>
             <h4 className={styles.blog_heading2}>Latest Posts</h4>
             <Row>
@@ -66,9 +66,9 @@ const Blog: React.FC = () => {
                     </Button>
                 </div>
                 <Space className={styles.icons}>
-                    <FacebookOutlined style={{ fontSize: '200%' }} />
-                    <LinkedinOutlined style={{ fontSize: '200%' }} />
-                    <InstagramOutlined style={{ fontSize: '200%' }} />
+                    <FacebookOutlined style={{ fontSize: '250%' }} />
+                    <LinkedinOutlined style={{ fontSize: '250%' }} />
+                    <InstagramOutlined style={{ fontSize: '250%' }} />
                 </Space>
             </div>
         </div>
