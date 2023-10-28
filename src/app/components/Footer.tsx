@@ -61,10 +61,10 @@ const Footer: React.FC = () => {
                     <h6 className={styles.recent_heading}>Recents</h6>
                     <div className={styles.recent1}>
                         <Image
-                            src="/assets/Innovations_img.png"
+                            src="/assets/services1.png"
                             alt="Service"
-                            width={50}
-                            height={50}
+                            width={75}
+                            height={75}
                             className={styles.recent_img}
                         />
                         <div className={styles.recent_content}>
@@ -74,10 +74,10 @@ const Footer: React.FC = () => {
                     </div>
                     <div className={styles.recent2}>
                         <Image
-                            src="/assets/Innovations_img.png"
+                            src="/assets/services2.png"
                             alt="Service"
-                            width={50}
-                            height={50}
+                            width={75}
+                            height={75}
                             className={styles.recent_img}
                         />
                         <div className={styles.recent_content}>

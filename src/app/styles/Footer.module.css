@@ -100,7 +100,7 @@
   font-style: normal;
   font-weight: 400;
 }
-
+ 
 .recent_heading {
   color: var(--Dark, #0A142F);
   font-size: 16px;
@@ -138,4 +138,8 @@
 .email_icon {
   position: relative;
   left: -25px;
+}
+.recent_img{
+  border-radius: 5px;
+  margin-right: 3%;
 }

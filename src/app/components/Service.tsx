@@ -6,13 +6,20 @@ import styles from '../styles/Service.module.css';
 import { useEffect } from 'react';
 
 const Service = () => {
-    const [scrollPosition, getScrollPositon] = useState(document.documentElement.scrollTop)
+    const [scrollPosition, setScrollPosition] = useState(0);
 
-    useEffect(() => {
-        window.addEventListener('scroll', () => {
-            getScrollPositon(document.documentElement.scrollTop);
-        })
-    }, [])
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+      setScrollPosition(currentPosition);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
     return (
         <div className={styles.main}>
             <div className={styles.Service}>
