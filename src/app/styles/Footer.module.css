@@ -1,0 +1,141 @@
+/* styles/Footer.module.css */
+
+.footer {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  width: 100%;
+}
+
+.legal_terms_h {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+
+}
+
+.reserved_rights {
+  color: var(--Dark, #0A142F);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 30px;
+}
+
+.privacy_policy {
+  color: var(--Dark, #0A142F);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 430px;
+}
+
+.terms_and_condition {
+  color: var(--Dark, #0A142F);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 30px;
+}
+
+.services_feild {
+  list-style: none;
+  color: var(--Dark, #0A142F);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 29px;
+}
+
+.socialmedia_links {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 30%;
+}
+
+
+
+.Useful_links {
+  color: var(--Dark, #0A142F);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  list-style: none;
+}
+
+.Useful_links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.recent_heading {
+  color: var(--Dark, #0A142F);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.recent1 {
+  display: flex;
+  margin-bottom: 5%;
+
+
+}
+
+.recent_Date {
+  color: rgba(10, 20, 47, 0.50);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.recent_heading {
+  color: var(--Dark, #0A142F);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.recent2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.logo_footer {
+  display: flex;
+  justify-content: left;
+}
+
+.email_heading {
+  color: var(--Dark, #0A142F);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  margin-bottom: 2%;
+}
+
+.email_input {
+  border: none;
+  border-bottom: 1px solid #0A142F;
+  height: 40px;
+  width: 338px;
+}
+
+.email_icon {
+  position: relative;
+  left: -25px;
+}
